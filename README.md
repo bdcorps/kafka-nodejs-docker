@@ -16,4 +16,4 @@ bash-4.4# kafka-console-producer.sh --broker-list localhost:9092 --topic test
 $ docker exec -it apache-kafka_kafka_1 bash
 
 ### To start a consumer
-kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic test# kafka-nodejs-docker
+kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic test
