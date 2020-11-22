@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "node-rdkafka": "^v2.9.1"
+  },
+  "name": "kafka-test",
+  "version": "1.0.0",
+  "main": "produce.js",
+  "scripts": {
+    "start": "export DYLD_LIBRARY_PATH=$DYLD_LIBRARY_PATH:`pwd`/node_modules/node-rdkafka/build/Release && node produce.js"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
